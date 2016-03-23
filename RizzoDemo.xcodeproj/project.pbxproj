@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		22B00A701CA239EE0057827E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A6F1CA239EE0057827E /* AppDelegate.swift */; };
-		22B00A721CA239EE0057827E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A711CA239EE0057827E /* ViewController.swift */; };
 		22B00A751CA239EE0057827E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B00A731CA239EE0057827E /* Main.storyboard */; };
 		22B00A771CA239EE0057827E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B00A761CA239EE0057827E /* Assets.xcassets */; };
 		22B00A7A1CA239EE0057827E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B00A781CA239EE0057827E /* LaunchScreen.storyboard */; };
 		22B00A851CA239EF0057827E /* RizzoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A841CA239EF0057827E /* RizzoDemoTests.swift */; };
 		22B00A901CA239EF0057827E /* RizzoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A8F1CA239EF0057827E /* RizzoDemoUITests.swift */; };
+		22B00AA01CA255940057827E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A9F1CA255940057827E /* Extensions.swift */; };
+		22B00AA31CA25A750057827E /* RizzoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00AA21CA25A750057827E /* RizzoMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		22B00A6C1CA239EE0057827E /* RizzoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RizzoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B00A6F1CA239EE0057827E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22B00A711CA239EE0057827E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22B00A741CA239EE0057827E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22B00A761CA239EE0057827E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B00A791CA239EE0057827E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		22B00A8B1CA239EF0057827E /* RizzoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RizzoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B00A8F1CA239EF0057827E /* RizzoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizzoDemoUITests.swift; sourceTree = "<group>"; };
 		22B00A911CA239EF0057827E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B00A9F1CA255940057827E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		22B00AA21CA25A750057827E /* RizzoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RizzoMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		22B00A6E1CA239EE0057827E /* RizzoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				22B00AA11CA25A2D0057827E /* ViewControllers */,
+				22B00A9D1CA255470057827E /* Estensions */,
 				22B00A6F1CA239EE0057827E /* AppDelegate.swift */,
-				22B00A711CA239EE0057827E /* ViewController.swift */,
 				22B00A731CA239EE0057827E /* Main.storyboard */,
 				22B00A761CA239EE0057827E /* Assets.xcassets */,
 				22B00A781CA239EE0057827E /* LaunchScreen.storyboard */,
@@ -123,6 +126,30 @@
 				22B00A911CA239EF0057827E /* Info.plist */,
 			);
 			path = RizzoDemoUITests;
+			sourceTree = "<group>";
+		};
+		22B00A9D1CA255470057827E /* Estensions */ = {
+			isa = PBXGroup;
+			children = (
+				22B00A9E1CA255590057827E /* UIImage Extention */,
+			);
+			name = Estensions;
+			sourceTree = "<group>";
+		};
+		22B00A9E1CA255590057827E /* UIImage Extention */ = {
+			isa = PBXGroup;
+			children = (
+				22B00A9F1CA255940057827E /* Extensions.swift */,
+			);
+			name = "UIImage Extention";
+			sourceTree = "<group>";
+		};
+		22B00AA11CA25A2D0057827E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				22B00AA21CA25A750057827E /* RizzoMainViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B00A721CA239EE0057827E /* ViewController.swift in Sources */,
+				22B00AA01CA255940057827E /* Extensions.swift in Sources */,
 				22B00A701CA239EE0057827E /* AppDelegate.swift in Sources */,
+				22B00AA31CA25A750057827E /* RizzoMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +514,7 @@
 				22B00A961CA239EF0057827E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B00A971CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +523,7 @@
 				22B00A991CA239EF0057827E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B00A9A1CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +532,7 @@
 				22B00A9C1CA239EF0057827E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
