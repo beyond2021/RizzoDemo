@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B00A701CA239EE0057827E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A6F1CA239EE0057827E /* AppDelegate.swift */; };
+		22B00A721CA239EE0057827E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A711CA239EE0057827E /* ViewController.swift */; };
+		22B00A751CA239EE0057827E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B00A731CA239EE0057827E /* Main.storyboard */; };
+		22B00A771CA239EE0057827E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B00A761CA239EE0057827E /* Assets.xcassets */; };
+		22B00A7A1CA239EE0057827E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B00A781CA239EE0057827E /* LaunchScreen.storyboard */; };
+		22B00A851CA239EF0057827E /* RizzoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A841CA239EF0057827E /* RizzoDemoTests.swift */; };
+		22B00A901CA239EF0057827E /* RizzoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B00A8F1CA239EF0057827E /* RizzoDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B00A811CA239EF0057827E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B00A641CA239EE0057827E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B00A6B1CA239EE0057827E;
+			remoteInfo = RizzoDemo;
+		};
+		22B00A8C1CA239EF0057827E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B00A641CA239EE0057827E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B00A6B1CA239EE0057827E;
+			remoteInfo = RizzoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B00A6C1CA239EE0057827E /* RizzoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RizzoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B00A6F1CA239EE0057827E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22B00A711CA239EE0057827E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22B00A741CA239EE0057827E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B00A761CA239EE0057827E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B00A791CA239EE0057827E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22B00A7B1CA239EE0057827E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B00A801CA239EF0057827E /* RizzoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RizzoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B00A841CA239EF0057827E /* RizzoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizzoDemoTests.swift; sourceTree = "<group>"; };
+		22B00A861CA239EF0057827E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B00A8B1CA239EF0057827E /* RizzoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RizzoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B00A8F1CA239EF0057827E /* RizzoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizzoDemoUITests.swift; sourceTree = "<group>"; };
+		22B00A911CA239EF0057827E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B00A691CA239EE0057827E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B00A7D1CA239EF0057827E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B00A881CA239EF0057827E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B00A631CA239EE0057827E = {
+			isa = PBXGroup;
+			children = (
+				22B00A6E1CA239EE0057827E /* RizzoDemo */,
+				22B00A831CA239EF0057827E /* RizzoDemoTests */,
+				22B00A8E1CA239EF0057827E /* RizzoDemoUITests */,
+				22B00A6D1CA239EE0057827E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B00A6D1CA239EE0057827E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B00A6C1CA239EE0057827E /* RizzoDemo.app */,
+				22B00A801CA239EF0057827E /* RizzoDemoTests.xctest */,
+				22B00A8B1CA239EF0057827E /* RizzoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B00A6E1CA239EE0057827E /* RizzoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22B00A6F1CA239EE0057827E /* AppDelegate.swift */,
+				22B00A711CA239EE0057827E /* ViewController.swift */,
+				22B00A731CA239EE0057827E /* Main.storyboard */,
+				22B00A761CA239EE0057827E /* Assets.xcassets */,
+				22B00A781CA239EE0057827E /* LaunchScreen.storyboard */,
+				22B00A7B1CA239EE0057827E /* Info.plist */,
+			);
+			path = RizzoDemo;
+			sourceTree = "<group>";
+		};
+		22B00A831CA239EF0057827E /* RizzoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22B00A841CA239EF0057827E /* RizzoDemoTests.swift */,
+				22B00A861CA239EF0057827E /* Info.plist */,
+			);
+			path = RizzoDemoTests;
+			sourceTree = "<group>";
+		};
+		22B00A8E1CA239EF0057827E /* RizzoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22B00A8F1CA239EF0057827E /* RizzoDemoUITests.swift */,
+				22B00A911CA239EF0057827E /* Info.plist */,
+			);
+			path = RizzoDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B00A6B1CA239EE0057827E /* RizzoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B00A941CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemo" */;
+			buildPhases = (
+				22B00A681CA239EE0057827E /* Sources */,
+				22B00A691CA239EE0057827E /* Frameworks */,
+				22B00A6A1CA239EE0057827E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RizzoDemo;
+			productName = RizzoDemo;
+			productReference = 22B00A6C1CA239EE0057827E /* RizzoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B00A7F1CA239EF0057827E /* RizzoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B00A971CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemoTests" */;
+			buildPhases = (
+				22B00A7C1CA239EF0057827E /* Sources */,
+				22B00A7D1CA239EF0057827E /* Frameworks */,
+				22B00A7E1CA239EF0057827E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B00A821CA239EF0057827E /* PBXTargetDependency */,
+			);
+			name = RizzoDemoTests;
+			productName = RizzoDemoTests;
+			productReference = 22B00A801CA239EF0057827E /* RizzoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22B00A8A1CA239EF0057827E /* RizzoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B00A9A1CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemoUITests" */;
+			buildPhases = (
+				22B00A871CA239EF0057827E /* Sources */,
+				22B00A881CA239EF0057827E /* Frameworks */,
+				22B00A891CA239EF0057827E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B00A8D1CA239EF0057827E /* PBXTargetDependency */,
+			);
+			name = RizzoDemoUITests;
+			productName = RizzoDemoUITests;
+			productReference = 22B00A8B1CA239EF0057827E /* RizzoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B00A641CA239EE0057827E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = beyond2021;
+				TargetAttributes = {
+					22B00A6B1CA239EE0057827E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					22B00A7F1CA239EF0057827E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 22B00A6B1CA239EE0057827E;
+					};
+					22B00A8A1CA239EF0057827E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 22B00A6B1CA239EE0057827E;
+					};
+				};
+			};
+			buildConfigurationList = 22B00A671CA239EE0057827E /* Build configuration list for PBXProject "RizzoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B00A631CA239EE0057827E;
+			productRefGroup = 22B00A6D1CA239EE0057827E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B00A6B1CA239EE0057827E /* RizzoDemo */,
+				22B00A7F1CA239EF0057827E /* RizzoDemoTests */,
+				22B00A8A1CA239EF0057827E /* RizzoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B00A6A1CA239EE0057827E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B00A7A1CA239EE0057827E /* LaunchScreen.storyboard in Resources */,
+				22B00A771CA239EE0057827E /* Assets.xcassets in Resources */,
+				22B00A751CA239EE0057827E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B00A7E1CA239EF0057827E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B00A891CA239EF0057827E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B00A681CA239EE0057827E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B00A721CA239EE0057827E /* ViewController.swift in Sources */,
+				22B00A701CA239EE0057827E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B00A7C1CA239EF0057827E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B00A851CA239EF0057827E /* RizzoDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B00A871CA239EF0057827E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B00A901CA239EF0057827E /* RizzoDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B00A821CA239EF0057827E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B00A6B1CA239EE0057827E /* RizzoDemo */;
+			targetProxy = 22B00A811CA239EF0057827E /* PBXContainerItemProxy */;
+		};
+		22B00A8D1CA239EF0057827E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B00A6B1CA239EE0057827E /* RizzoDemo */;
+			targetProxy = 22B00A8C1CA239EF0057827E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22B00A731CA239EE0057827E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B00A741CA239EE0057827E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B00A781CA239EE0057827E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B00A791CA239EE0057827E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B00A921CA239EF0057827E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B00A931CA239EF0057827E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B00A951CA239EF0057827E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RizzoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22B00A961CA239EF0057827E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RizzoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22B00A981CA239EF0057827E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RizzoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RizzoDemo.app/RizzoDemo";
+			};
+			name = Debug;
+		};
+		22B00A991CA239EF0057827E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RizzoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RizzoDemo.app/RizzoDemo";
+			};
+			name = Release;
+		};
+		22B00A9B1CA239EF0057827E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RizzoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RizzoDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		22B00A9C1CA239EF0057827E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RizzoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.RizzoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RizzoDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B00A671CA239EE0057827E /* Build configuration list for PBXProject "RizzoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B00A921CA239EF0057827E /* Debug */,
+				22B00A931CA239EF0057827E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B00A941CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B00A951CA239EF0057827E /* Debug */,
+				22B00A961CA239EF0057827E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22B00A971CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B00A981CA239EF0057827E /* Debug */,
+				22B00A991CA239EF0057827E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22B00A9A1CA239EF0057827E /* Build configuration list for PBXNativeTarget "RizzoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B00A9B1CA239EF0057827E /* Debug */,
+				22B00A9C1CA239EF0057827E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B00A641CA239EE0057827E /* Project object */;
+}
