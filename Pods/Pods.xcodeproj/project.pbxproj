@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E0C892AE082DD8E79E7EA8A7D0B1B0 /* TADotView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7EFCB092FA038C34316F54E42C2C22 /* TADotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129E1455147A0EBD4BB16A0848C7ECEA /* TAPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EAAA77F006EF8EB5504702CD1AB05624 /* TAPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD8FF2DC5E70F5C247651701F9E21F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		3A2A21853A54A48C61C9D136D30687AF /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8DE51623CF3013901006A7F11DB623 /* TADotView.m */; };
+		41F60239D63E1F9A92C2059CE37AB831 /* Pods-RizzoDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD459F994EDA75B1D442C9581E2F8AB1 /* Pods-RizzoDemoUITests-dummy.m */; };
+		428CDA4E6E5B4CE958EE1BD486ACFB9D /* Pods-RizzoDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 852E9C57CC2E6FFF7A3FA02386B23D6A /* Pods-RizzoDemoTests-dummy.m */; };
+		47A6B19BC9A5C90EEB270F1647FC4570 /* TAAnimatedDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EB9A25FCE19950F24BF684336FF3D0 /* TAAnimatedDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF9052D6BF14E1D19377B852BA96489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		83722928D15EFCF086B18E604ADE3130 /* TAAbstractDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0A84935BB36997EE9F74D3F5EC4FB1 /* TAAbstractDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86FC1572365590A016F86D1123580EF7 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E3736B64FA6878757BA3727BA382E7F1 /* TAPageControl.m */; };
+		9E53D4135DE08C5DA43EE8496AF26E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		A6B4ED5BD430D19AE54CCCCEFE2ED9E4 /* Pods-RizzoDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6AAEB6A45700292ACDF64465B050CB /* Pods-RizzoDemo-dummy.m */; };
+		BDC3766067323BCDDECC713089B36D56 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0375CC718022A179AA6BB17E48306331 /* TAAbstractDotView.m */; };
+		BDE849986024D4ED5D45B6286D6986AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		E53AF9AEBB6128E4FC4CB9BEE3268B7A /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A2CECD4B30524C20D0CAB6E153502 /* TAAnimatedDotView.m */; };
+		ED58D36D6E79E5B002D60C17EC2F945C /* TAPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165EED12CAE7FC0E9A5158830455B10 /* TAPageControl-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F2B3C9DE013A21B166E1236C0E8544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F9DF117C3800230FD50F01AD57199B;
+			remoteInfo = TAPageControl;
+		};
+		3879840CECCA905F48BAA2F76E651838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F9DF117C3800230FD50F01AD57199B;
+			remoteInfo = TAPageControl;
+		};
+		F3B218A1A70420BF411652DD4197804D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F9DF117C3800230FD50F01AD57199B;
+			remoteInfo = TAPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E2A816C62A1FDFCB02721206B6C62C /* Pods-RizzoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RizzoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0375CC718022A179AA6BB17E48306331 /* TAAbstractDotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAAbstractDotView.m; path = TAPageControl/TAAbstractDotView.m; sourceTree = "<group>"; };
+		095F372AC9F4A90738FA67557D9E40FC /* Pods-RizzoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RizzoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6AAEB6A45700292ACDF64465B050CB /* Pods-RizzoDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RizzoDemo-dummy.m"; sourceTree = "<group>"; };
+		1165EED12CAE7FC0E9A5158830455B10 /* TAPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAPageControl-dummy.m"; sourceTree = "<group>"; };
+		1489C0556818F89DF431D3564F597E13 /* libTAPageControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAPageControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1524C73B2E9414CF9EEA52FEF5E49B71 /* TAPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAPageControl.xcconfig; sourceTree = "<group>"; };
+		2CACE47C63B49B71F34A182C0D1838F6 /* Pods-RizzoDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RizzoDemo-frameworks.sh"; sourceTree = "<group>"; };
+		35037EB272716C45D29A6D4DCF29BDE9 /* Pods-RizzoDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RizzoDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36BF27B3F0330A4490EAE2BAA2A5BC51 /* Pods-RizzoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RizzoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		502046C57DA47E2C05A9D7E0692C918E /* Pods-RizzoDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RizzoDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59094D49B24F867B05AFCC9A505340A3 /* Pods-RizzoDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RizzoDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		785A2CECD4B30524C20D0CAB6E153502 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAAnimatedDotView.m; path = TAPageControl/TAAnimatedDotView.m; sourceTree = "<group>"; };
+		78EB9A25FCE19950F24BF684336FF3D0 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAAnimatedDotView.h; path = TAPageControl/TAAnimatedDotView.h; sourceTree = "<group>"; };
+		7B5A4B75BCC93761E7AAC74624309FD0 /* Pods-RizzoDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RizzoDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		807B438F44FE4134E4CF7C1334C03D86 /* Pods-RizzoDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RizzoDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		809519B369DDBA65F29349C94ED422BE /* Pods-RizzoDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RizzoDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83826C1A4DBE2B6842670DB4B27B9437 /* Pods-RizzoDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RizzoDemoTests-resources.sh"; sourceTree = "<group>"; };
+		852E9C57CC2E6FFF7A3FA02386B23D6A /* Pods-RizzoDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RizzoDemoTests-dummy.m"; sourceTree = "<group>"; };
+		8D9D395723DCE1534721C1F170F27BC3 /* TAPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAPageControl-prefix.pch"; sourceTree = "<group>"; };
+		9A0A84935BB36997EE9F74D3F5EC4FB1 /* TAAbstractDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAAbstractDotView.h; path = TAPageControl/TAAbstractDotView.h; sourceTree = "<group>"; };
+		9D3BC0B8680035F55CE6C65BE3752663 /* Pods-RizzoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RizzoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9F08AD6A4BD9FA958BF4E22858C9F3 /* Pods-RizzoDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RizzoDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C288943A4986A375B12E7952DDC6A4AD /* Pods-RizzoDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RizzoDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		D3EA9630F1A8B28C8D374858CDD67F00 /* Pods-RizzoDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RizzoDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8DE51623CF3013901006A7F11DB623 /* TADotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TADotView.m; path = TAPageControl/TADotView.m; sourceTree = "<group>"; };
+		E3736B64FA6878757BA3727BA382E7F1 /* TAPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAPageControl.m; path = TAPageControl/TAPageControl.m; sourceTree = "<group>"; };
+		EA1F9B0E9E2DDC63DC63276DEA377AB7 /* Pods-RizzoDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RizzoDemo-resources.sh"; sourceTree = "<group>"; };
+		EAAA77F006EF8EB5504702CD1AB05624 /* TAPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAPageControl.h; path = TAPageControl/TAPageControl.h; sourceTree = "<group>"; };
+		EC3A8063D1CECEC982A980B8058F9CD4 /* libPods-RizzoDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RizzoDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF3A7F4C67D71DF04C4AF4A8930C0D5 /* Pods-RizzoDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RizzoDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE7EFCB092FA038C34316F54E42C2C22 /* TADotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TADotView.h; path = TAPageControl/TADotView.h; sourceTree = "<group>"; };
+		F0584187412626EAFB7064E78335568A /* Pods-RizzoDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RizzoDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD459F994EDA75B1D442C9581E2F8AB1 /* Pods-RizzoDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RizzoDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		FE5E8FB5E0890C7D12A82F1E9919EC85 /* libPods-RizzoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RizzoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE995E01A4BE7452E8A5789A6D7F6DE5 /* libPods-RizzoDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RizzoDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643F205B8E74D655944403B94408817A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE849986024D4ED5D45B6286D6986AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF50E5811CD159F84255A4F3F58232DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD8FF2DC5E70F5C247651701F9E21F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E36E3D6B5A7F1DFE5A4D7AFD4EAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E53D4135DE08C5DA43EE8496AF26E05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6729C26CFE37F3099249AA1929C423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF9052D6BF14E1D19377B852BA96489 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099D9F7D37285A4E3198D67E7A1FAFA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1524C73B2E9414CF9EEA52FEF5E49B71 /* TAPageControl.xcconfig */,
+				1165EED12CAE7FC0E9A5158830455B10 /* TAPageControl-dummy.m */,
+				8D9D395723DCE1534721C1F170F27BC3 /* TAPageControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TAPageControl";
+			sourceTree = "<group>";
+		};
+		0D0D7581D4443963B2D5EDFD6BE4EDC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E161851EB1A1C1F1D744D5819A4B35B /* TAPageControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1E161851EB1A1C1F1D744D5819A4B35B /* TAPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				9A0A84935BB36997EE9F74D3F5EC4FB1 /* TAAbstractDotView.h */,
+				0375CC718022A179AA6BB17E48306331 /* TAAbstractDotView.m */,
+				78EB9A25FCE19950F24BF684336FF3D0 /* TAAnimatedDotView.h */,
+				785A2CECD4B30524C20D0CAB6E153502 /* TAAnimatedDotView.m */,
+				EE7EFCB092FA038C34316F54E42C2C22 /* TADotView.h */,
+				DD8DE51623CF3013901006A7F11DB623 /* TADotView.m */,
+				EAAA77F006EF8EB5504702CD1AB05624 /* TAPageControl.h */,
+				E3736B64FA6878757BA3727BA382E7F1 /* TAPageControl.m */,
+				099D9F7D37285A4E3198D67E7A1FAFA0 /* Support Files */,
+			);
+			path = TAPageControl;
+			sourceTree = "<group>";
+		};
+		3B38870BBC7536E4EAEE448BAFC971DC /* Pods-RizzoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0584187412626EAFB7064E78335568A /* Pods-RizzoDemoTests-acknowledgements.markdown */,
+				AB9F08AD6A4BD9FA958BF4E22858C9F3 /* Pods-RizzoDemoTests-acknowledgements.plist */,
+				852E9C57CC2E6FFF7A3FA02386B23D6A /* Pods-RizzoDemoTests-dummy.m */,
+				7B5A4B75BCC93761E7AAC74624309FD0 /* Pods-RizzoDemoTests-frameworks.sh */,
+				83826C1A4DBE2B6842670DB4B27B9437 /* Pods-RizzoDemoTests-resources.sh */,
+				095F372AC9F4A90738FA67557D9E40FC /* Pods-RizzoDemoTests.debug.xcconfig */,
+				36BF27B3F0330A4490EAE2BAA2A5BC51 /* Pods-RizzoDemoTests.release.xcconfig */,
+			);
+			name = "Pods-RizzoDemoTests";
+			path = "Target Support Files/Pods-RizzoDemoTests";
+			sourceTree = "<group>";
+		};
+		7766999D388E0984F262A8430C451FE5 /* Pods-RizzoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35037EB272716C45D29A6D4DCF29BDE9 /* Pods-RizzoDemo-acknowledgements.markdown */,
+				ECF3A7F4C67D71DF04C4AF4A8930C0D5 /* Pods-RizzoDemo-acknowledgements.plist */,
+				0E6AAEB6A45700292ACDF64465B050CB /* Pods-RizzoDemo-dummy.m */,
+				2CACE47C63B49B71F34A182C0D1838F6 /* Pods-RizzoDemo-frameworks.sh */,
+				EA1F9B0E9E2DDC63DC63276DEA377AB7 /* Pods-RizzoDemo-resources.sh */,
+				9D3BC0B8680035F55CE6C65BE3752663 /* Pods-RizzoDemo.debug.xcconfig */,
+				01E2A816C62A1FDFCB02721206B6C62C /* Pods-RizzoDemo.release.xcconfig */,
+			);
+			name = "Pods-RizzoDemo";
+			path = "Target Support Files/Pods-RizzoDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0D0D7581D4443963B2D5EDFD6BE4EDC1 /* Pods */,
+				929E6F327A3C426BDD03C3DC697B3B6F /* Products */,
+				C78D089507878CED08522CCF1D9AA4E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		929E6F327A3C426BDD03C3DC697B3B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E8FB5E0890C7D12A82F1E9919EC85 /* libPods-RizzoDemo.a */,
+				FE995E01A4BE7452E8A5789A6D7F6DE5 /* libPods-RizzoDemoTests.a */,
+				EC3A8063D1CECEC982A980B8058F9CD4 /* libPods-RizzoDemoUITests.a */,
+				1489C0556818F89DF431D3564F597E13 /* libTAPageControl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78D089507878CED08522CCF1D9AA4E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7766999D388E0984F262A8430C451FE5 /* Pods-RizzoDemo */,
+				3B38870BBC7536E4EAEE448BAFC971DC /* Pods-RizzoDemoTests */,
+				EB1E254D6F20B8F62FAE8A4C0736EFE1 /* Pods-RizzoDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB1E254D6F20B8F62FAE8A4C0736EFE1 /* Pods-RizzoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59094D49B24F867B05AFCC9A505340A3 /* Pods-RizzoDemoUITests-acknowledgements.markdown */,
+				809519B369DDBA65F29349C94ED422BE /* Pods-RizzoDemoUITests-acknowledgements.plist */,
+				FD459F994EDA75B1D442C9581E2F8AB1 /* Pods-RizzoDemoUITests-dummy.m */,
+				807B438F44FE4134E4CF7C1334C03D86 /* Pods-RizzoDemoUITests-frameworks.sh */,
+				C288943A4986A375B12E7952DDC6A4AD /* Pods-RizzoDemoUITests-resources.sh */,
+				D3EA9630F1A8B28C8D374858CDD67F00 /* Pods-RizzoDemoUITests.debug.xcconfig */,
+				502046C57DA47E2C05A9D7E0692C918E /* Pods-RizzoDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-RizzoDemoUITests";
+			path = "Target Support Files/Pods-RizzoDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C453664530F690BF273281E4F83B686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83722928D15EFCF086B18E604ADE3130 /* TAAbstractDotView.h in Headers */,
+				47A6B19BC9A5C90EEB270F1647FC4570 /* TAAnimatedDotView.h in Headers */,
+				11E0C892AE082DD8E79E7EA8A7D0B1B0 /* TADotView.h in Headers */,
+				129E1455147A0EBD4BB16A0848C7ECEA /* TAPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D3961720A4C5845FD5F899815EDFEFB /* Pods-RizzoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F6FD74A3EAF8F7ECC713EDD7DAF26 /* Build configuration list for PBXNativeTarget "Pods-RizzoDemoUITests" */;
+			buildPhases = (
+				453AAC323C3E163834B67E8754BBAE48 /* Sources */,
+				C59E36E3D6B5A7F1DFE5A4D7AFD4EAFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D271A2F8745F37BD2ED9C6EB80B74D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-RizzoDemoUITests";
+			productName = "Pods-RizzoDemoUITests";
+			productReference = EC3A8063D1CECEC982A980B8058F9CD4 /* libPods-RizzoDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		783DB20371C118906E227BC84AAD981A /* Pods-RizzoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46247C0AA7E83FAC472023FAEEB9C4CC /* Build configuration list for PBXNativeTarget "Pods-RizzoDemo" */;
+			buildPhases = (
+				87152744C447EDAA6304A892B10C0356 /* Sources */,
+				643F205B8E74D655944403B94408817A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F4E58C0396F3910D51BCBB6B62AED9 /* PBXTargetDependency */,
+			);
+			name = "Pods-RizzoDemo";
+			productName = "Pods-RizzoDemo";
+			productReference = FE5E8FB5E0890C7D12A82F1E9919EC85 /* libPods-RizzoDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADB1152305B4180AF873738F041D8F3A /* Pods-RizzoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00661E889F8FC6DB0414271ED29A2897 /* Build configuration list for PBXNativeTarget "Pods-RizzoDemoTests" */;
+			buildPhases = (
+				D8099F2ECEA9C8066A7AF23B70182DEC /* Sources */,
+				BF50E5811CD159F84255A4F3F58232DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10977025F91BEB56944D0010E6D59D1D /* PBXTargetDependency */,
+			);
+			name = "Pods-RizzoDemoTests";
+			productName = "Pods-RizzoDemoTests";
+			productReference = FE995E01A4BE7452E8A5789A6D7F6DE5 /* libPods-RizzoDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4F9DF117C3800230FD50F01AD57199B /* TAPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D621B3DDB9687451AC3159234C6DB9C9 /* Build configuration list for PBXNativeTarget "TAPageControl" */;
+			buildPhases = (
+				BE054506E5FA78FF8F1289A2A02FC239 /* Sources */,
+				ED6729C26CFE37F3099249AA1929C423 /* Frameworks */,
+				8C453664530F690BF273281E4F83B686 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAPageControl;
+			productName = TAPageControl;
+			productReference = 1489C0556818F89DF431D3564F597E13 /* libTAPageControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 929E6F327A3C426BDD03C3DC697B3B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783DB20371C118906E227BC84AAD981A /* Pods-RizzoDemo */,
+				ADB1152305B4180AF873738F041D8F3A /* Pods-RizzoDemoTests */,
+				2D3961720A4C5845FD5F899815EDFEFB /* Pods-RizzoDemoUITests */,
+				E4F9DF117C3800230FD50F01AD57199B /* TAPageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453AAC323C3E163834B67E8754BBAE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F60239D63E1F9A92C2059CE37AB831 /* Pods-RizzoDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87152744C447EDAA6304A892B10C0356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B4ED5BD430D19AE54CCCCEFE2ED9E4 /* Pods-RizzoDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE054506E5FA78FF8F1289A2A02FC239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3766067323BCDDECC713089B36D56 /* TAAbstractDotView.m in Sources */,
+				E53AF9AEBB6128E4FC4CB9BEE3268B7A /* TAAnimatedDotView.m in Sources */,
+				3A2A21853A54A48C61C9D136D30687AF /* TADotView.m in Sources */,
+				ED58D36D6E79E5B002D60C17EC2F945C /* TAPageControl-dummy.m in Sources */,
+				86FC1572365590A016F86D1123580EF7 /* TAPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8099F2ECEA9C8066A7AF23B70182DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428CDA4E6E5B4CE958EE1BD486ACFB9D /* Pods-RizzoDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10977025F91BEB56944D0010E6D59D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAPageControl;
+			target = E4F9DF117C3800230FD50F01AD57199B /* TAPageControl */;
+			targetProxy = 34F2B3C9DE013A21B166E1236C0E8544 /* PBXContainerItemProxy */;
+		};
+		14F4E58C0396F3910D51BCBB6B62AED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAPageControl;
+			target = E4F9DF117C3800230FD50F01AD57199B /* TAPageControl */;
+			targetProxy = F3B218A1A70420BF411652DD4197804D /* PBXContainerItemProxy */;
+		};
+		4D271A2F8745F37BD2ED9C6EB80B74D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAPageControl;
+			target = E4F9DF117C3800230FD50F01AD57199B /* TAPageControl */;
+			targetProxy = 3879840CECCA905F48BAA2F76E651838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C3C5D22FFF3673B70578F22D9D01844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1524C73B2E9414CF9EEA52FEF5E49B71 /* TAPageControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAPageControl/TAPageControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		60DBAC91D6A6388549A39DD99412B89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E2A816C62A1FDFCB02721206B6C62C /* Pods-RizzoDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70ED7BA863FEDDFCA6088A0E04B5409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73279FB9662DFB33556AD7787DE1CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BF27B3F0330A4490EAE2BAA2A5BC51 /* Pods-RizzoDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B9F1E857B4951B480018A078C13EB221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EA9630F1A8B28C8D374858CDD67F00 /* Pods-RizzoDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9FE3AD60D619012FD84A40CD66271EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095F372AC9F4A90738FA67557D9E40FC /* Pods-RizzoDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0CACA4B4ECA03E231939F3D650828D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3BC0B8680035F55CE6C65BE3752663 /* Pods-RizzoDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1B685D9073CDF53C548503CD4FD8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED0B73A74D25BE24FA868568D71F929E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1524C73B2E9414CF9EEA52FEF5E49B71 /* TAPageControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAPageControl/TAPageControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB9CE71026F92EE4212E54CFE2CC7CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502046C57DA47E2C05A9D7E0692C918E /* Pods-RizzoDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00661E889F8FC6DB0414271ED29A2897 /* Build configuration list for PBXNativeTarget "Pods-RizzoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FE3AD60D619012FD84A40CD66271EE /* Debug */,
+				73279FB9662DFB33556AD7787DE1CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B685D9073CDF53C548503CD4FD8B53 /* Debug */,
+				70ED7BA863FEDDFCA6088A0E04B5409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46247C0AA7E83FAC472023FAEEB9C4CC /* Build configuration list for PBXNativeTarget "Pods-RizzoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CACA4B4ECA03E231939F3D650828D9 /* Debug */,
+				60DBAC91D6A6388549A39DD99412B89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F6FD74A3EAF8F7ECC713EDD7DAF26 /* Build configuration list for PBXNativeTarget "Pods-RizzoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F1E857B4951B480018A078C13EB221 /* Debug */,
+				FB9CE71026F92EE4212E54CFE2CC7CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D621B3DDB9687451AC3159234C6DB9C9 /* Build configuration list for PBXNativeTarget "TAPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0B73A74D25BE24FA868568D71F929E /* Debug */,
+				4C3C5D22FFF3673B70578F22D9D01844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

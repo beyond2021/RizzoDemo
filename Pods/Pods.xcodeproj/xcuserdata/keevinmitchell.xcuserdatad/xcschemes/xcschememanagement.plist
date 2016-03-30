@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-RizzoDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RizzoDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RizzoDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TAPageControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2D3961720A4C5845FD5F899815EDFEFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>783DB20371C118906E227BC84AAD981A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADB1152305B4180AF873738F041D8F3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4F9DF117C3800230FD50F01AD57199B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

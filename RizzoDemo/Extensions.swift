@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIImage {
+    
     enum AssetIdentifier : String {
         //Strings Defined in asset Catelog
         case RizzoWithLogo1 = "RizzoWithLogo1"
@@ -28,7 +29,9 @@ extension UIImage {
         case ScrollView4 = "ScrollView4"
         case ScrollView5 = "ScrollView5"
         case ScrollView6 = "ScrollView6"
-        
+        //ScrollView Images
+        case dotActive   = "dotActive"
+        case dotInactive   = "dotInactive"
     }
     
     

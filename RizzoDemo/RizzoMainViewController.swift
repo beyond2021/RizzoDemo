@@ -7,8 +7,13 @@
 //
 
 import UIKit
+//import TAPageControl
 
-class RizzoMainViewController: UIViewController {
+
+
+class RizzoMainViewController: UIViewController, UIScrollViewDelegate, TAPageControlDelegate {
+    
+    
     @IBOutlet weak var bgImageView: UIImageView!
     
     @IBOutlet weak var steinwayIV: UIButton!
@@ -16,16 +21,45 @@ class RizzoMainViewController: UIViewController {
     @IBOutlet weak var clintonButton: UIButton!
     
     
+    @IBOutlet var IBOutletCollection: [UIScrollView]!
+    
     @IBOutlet weak var lexButton: UIButton!
     
-    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var scrollView2: UIScrollView!{
+        didSet{
+            
+        }
+        
+    }
+    override func viewDidLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        for scrollView in self.IBOutletCollection {
+            scrollView.contentSize = CGSizeMake(CGRectGetWidth(scrollView.frame) * CGFloat(self.imagesData.count), CGRectGetHeight(scrollView.frame))
+        }
+        
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpInterface()
-        
-    }
+        //Scroller
+        // 1
+        imagesData = [UIImage(assetIdentifier: .ScrollView1),
+            UIImage(assetIdentifier: .ScrollView2),
+            UIImage(assetIdentifier: .ScrollView3),
+            UIImage(assetIdentifier: .ScrollView4),
+            UIImage(assetIdentifier: .ScrollView5),
+            UIImage(assetIdentifier: .ScrollView6)]
+        setupScrollViewImages()
+        for scrollView in self.IBOutletCollection {
+            scrollView.delegate = self;
+        }
+        customPageControl2.numberOfPages = imagesData.count
+       // instanceOfCustomObject.delegate = self
+           }
+    
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         bgImageView.alpha = 0
@@ -33,6 +67,7 @@ class RizzoMainViewController: UIViewController {
         animate()
         
     }
+    
     //MARK: -Actions
     @IBAction func steinwayAction(sender: UIButton) {
     }
@@ -45,6 +80,12 @@ class RizzoMainViewController: UIViewController {
     @IBAction func lexAction(sender: UIButton) {
     }
     
+    //MARK: - PageControl
+    
+   @IBOutlet weak var customPageControl2: TAPageControl!
+  //  var customPageControl2 : TAPageControl!
+    // an array for the images of the scroller
+    var imagesData = []
     
     //MARK: - Interface
     func setUpInterface(){
@@ -62,6 +103,7 @@ class RizzoMainViewController: UIViewController {
         lexButton.layer.masksToBounds = true
         
     }
+    
     func animate(){
         
         //
@@ -103,10 +145,35 @@ class RizzoMainViewController: UIViewController {
             }, completion: nil)
         
         
-        
-        
     }
+
     
+  
+    //MARK: - - ScrollView delegate
+    func setupScrollViewImages(){
+        for scrollView in self.IBOutletCollection {
+            imagesData.enumerateObjectsUsingBlock { (imageName, idx, stop) -> Void in
+                let imageView = UIImageView(frame: CGRectMake(CGRectGetWidth(scrollView.frame) * CGFloat(idx),0,CGRectGetWidth(scrollView.frame), CGRectGetHeight(scrollView.frame)))
+                imageView.contentMode = UIViewContentMode.ScaleAspectFill
+                imageView.image = imageName as? UIImage
+                scrollView.addSubview(imageView)
+            }
+        }
+    }
+             func scrollViewDidScroll(scrollView: UIScrollView){
+            let pageIndex = scrollView.contentOffset.x / CGRectGetWidth(scrollView.frame)
+            
+            self.customPageControl2.currentPage = Int(pageIndex)
+          
+        }
+        
+  // - (void)TAPageControl:(TAPageControl *)pageControl didSelectPageAtIndex:(NSInteger)index
     
-    
+//    @objc func TAPageControl(pageControl: TAPageControl!, didSelectPageAtIndex index: Int) {
+//        
+//    }
+   
+//    @objc func TAPageControl(pageControl: TAPageControl!, didSelectPageAtIndex index: Int) {
+//        
+//    }
 }

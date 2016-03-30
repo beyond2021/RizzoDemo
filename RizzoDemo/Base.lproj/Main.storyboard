@@ -53,11 +53,34 @@
                                     <action selector="lexAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1TI-We-ym9"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sRS-yt-GZx">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRS-yt-GZx">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="154"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xBM-JQ-bem">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="154"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rrt-D4-2TZ" customClass="TAPageControl">
+                                        <rect key="frame" x="137" y="112" width="141" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="141" id="TdZ-Z4-fT3"/>
+                                            <constraint firstAttribute="height" constant="42" id="b53-36-SrT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
+                                    <constraint firstItem="Rrt-D4-2TZ" firstAttribute="centerX" secondItem="xBM-JQ-bem" secondAttribute="centerX" id="4xS-PL-wR9"/>
                                     <constraint firstAttribute="height" constant="154" id="HJo-6u-nCo"/>
+                                    <constraint firstAttribute="trailing" secondItem="xBM-JQ-bem" secondAttribute="trailing" id="HcW-Di-bBR"/>
+                                    <constraint firstItem="xBM-JQ-bem" firstAttribute="centerY" secondItem="sRS-yt-GZx" secondAttribute="centerY" id="Igo-tg-gdi"/>
+                                    <constraint firstItem="xBM-JQ-bem" firstAttribute="centerX" secondItem="sRS-yt-GZx" secondAttribute="centerX" id="d0y-Jh-wpS"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rrt-D4-2TZ" secondAttribute="bottom" id="l16-pd-5EJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="xBM-JQ-bem" secondAttribute="bottom" id="lTl-MA-2Zt"/>
+                                    <constraint firstItem="xBM-JQ-bem" firstAttribute="leading" secondItem="sRS-yt-GZx" secondAttribute="leading" id="lzY-xT-cOp"/>
+                                    <constraint firstItem="xBM-JQ-bem" firstAttribute="top" secondItem="sRS-yt-GZx" secondAttribute="top" id="oiF-oe-vqn"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JQ4-LH-tVd"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -81,9 +104,11 @@
                     <connections>
                         <outlet property="bgImageView" destination="mZv-v5-lIa" id="1Mz-T9-z1G"/>
                         <outlet property="clintonButton" destination="cJ3-Si-BHu" id="HL1-0K-Uuz"/>
+                        <outlet property="customPageControl2" destination="Rrt-D4-2TZ" id="tKw-jw-M72"/>
                         <outlet property="lexButton" destination="6tc-x2-Fv7" id="StA-A4-7JL"/>
-                        <outlet property="scrollView" destination="sRS-yt-GZx" id="wR1-Tk-4EU"/>
+                        <outlet property="scrollView2" destination="sRS-yt-GZx" id="Kom-S4-eAB"/>
                         <outlet property="steinwayIV" destination="HIw-0x-8or" id="JOc-eh-oE1"/>
+                        <outletCollection property="IBOutletCollection" destination="sRS-yt-GZx" collectionClass="NSMutableArray" id="9YM-7I-ib4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
